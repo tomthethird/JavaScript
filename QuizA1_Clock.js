@@ -20,7 +20,7 @@ function addZero(component) {
     return component < 10 ? "0" + component : component;
 }
 
-document.getElementById("dateString").innerHTML = `Today is ${monthname} ${number}, ${dayname}. Current time is ${timeString}.`
+document.getElementById("dateString").innerHTML = `Today is ${monthname} ${number}, ${dayname}. Current time is ${hours}:${minutes} ${amOrPm}.`
 document.getElementById("date").innerHTML = monthname + " " + number;
 document.getElementById("clock").innerHTML = timeString;
 document.getElementById("day").innerHTML = dayname;
