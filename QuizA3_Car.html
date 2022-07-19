@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cars</title>
+        <style>
+            .image {
+                display: block;
+                text-align: center;
+                margin: auto;
+            }
+            .image img {
+                width: 500px;
+            }
+            .details {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: auto;
+                width: 500px;
+                border: 2px solid black;
+                border-radius: 3px;
+                padding: 10px
+            }
+            table {
+                width: 500px;
+                padding: 5px 0;
+            }
+            td {
+                border-bottom: 1px solid rgb(168, 168, 168);
+                padding: 3px 0;
+            }
+            .em {
+                font-weight: 600;
+                color: rgb(58, 58, 58);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="image">
+                <img src="https://d3ggoe3aghc7um.cloudfront.net/uploads/prices/546/002_546_1599892612092_000.jpg">
+            </div>
+            <div class="details">
+                <table>
+                    <tr>
+                        <td class="em">Manufacturer</td>
+                        <td id="manufacturer">Toyota</td>
+                    </tr>
+                    <tr>
+                        <td class="em">Make and Model</td>
+                        <td id="model">Corolla AE101</td>
+                    </tr>
+                    <tr>
+                        <td class="em">Engine</td>
+                        <td id="engine">1.3 2E</td>
+                    </tr>
+                    <tr>
+                        <td class="em">Body Style</td>
+                        <td id="body">Sedan</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="QuizA3_Car.js"></script>
+    </body>
+</html>
